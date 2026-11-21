@@ -1,0 +1,7 @@
+name = "react-router"
+roles = ["frontend", "backend"]
+webhooks_path = "/webhooks/app/uninstalled"
+
+[commands]
+predev = "node migrate.js"
+dev = "react-router dev"
